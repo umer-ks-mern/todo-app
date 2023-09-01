@@ -3,7 +3,9 @@ const Todo = ({ title, description, status }) => {
     <div>
       <h3>{title}</h3>
       <p>{description}</p>
-      <p>Status: <strong>{status}</strong></p>
+      <p>
+        Status: <strong>{status}</strong>
+      </p>
     </div>
   );
 };
