@@ -8,6 +8,10 @@ const TodoAdd = ({ onAddTodo }) => {
   });
 
   const addClick = () => {
+    if (todoData.title == "" || todoData.description == "") {
+      alert("All Feilds are Required!!");
+      return;
+    }
     onAddTodo(todoData);
     setTodoData({
       title: "",
