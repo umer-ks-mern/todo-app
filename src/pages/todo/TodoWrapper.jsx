@@ -1,6 +1,6 @@
 import { useState } from "react";
-import TodoAdd from "./TodoAdd";
-import TodoList from "./TodoList";
+import TodoAdd from "../../components/todo/TodoAdd";
+import TodoList from "../../components/todo/TodoList";
 
 const TodoWrapper = () => {
   const [todos, setTodos] = useState([]);

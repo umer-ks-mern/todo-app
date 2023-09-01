@@ -1,4 +1,4 @@
-import TodoWrapper from "./TodoWrapper";
+import TodoWrapper from "./pages/todo/TodoWrapper";
 
 const App = () => {
   return (
