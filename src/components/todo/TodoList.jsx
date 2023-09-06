@@ -1,6 +1,6 @@
 import Todo from "./Todo";
 
-const TodoList = ({ todos }) => {
+const TodoList = ({ todos, deleteOne, markComplete }) => {
   return (
     <div>
       {todos.map((todo, index) => (
@@ -9,6 +9,8 @@ const TodoList = ({ todos }) => {
           title={todo.title}
           description={todo.description}
           status={todo.status}
+          deleteOne={deleteOne}
+          markComplete={markComplete}
         />
       ))}
     </div>
